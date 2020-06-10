@@ -12,6 +12,10 @@ public class Player {
 		this.record = record;
 	}
 	
+	public int getRecord() {
+		return this.record;
+	}
+	
 	public void print() {
 		System.out.println("이름: " + name + ", 기록: " + record);
 	}
