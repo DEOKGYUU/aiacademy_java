@@ -1,4 +1,4 @@
-package race;
+package race2;
 
 public class Player {
 	private String name;
