@@ -27,7 +27,7 @@ public class MemberServiceImpl implements MemberService {
 					System.out.println("비밀번호가 틀렸습니다.");
 					break;
 				}
-			} else if(i == index) {
+			} else if(i == index-1) {
 				System.out.println("아이디가 없습니다.");
 			}
 		}

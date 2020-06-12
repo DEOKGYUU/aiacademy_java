@@ -10,9 +10,6 @@ public class RpsServiceImpl implements RpsService{
 	
 	@Override
 	public void game(Rps rps) {
-		System.out.println("가위, 바위, 보를 고르세요.");
-		System.out.println("1. 가위  2. 바위  3. 보");
-
 		String result = "";
 		if(rps.getPlayer() == 1) {
 			if(rps.getComputer() == 1) {
