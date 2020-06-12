@@ -4,14 +4,15 @@ import java.util.Scanner;
 public class MyName {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("ÀÌ¸§ÀÌ ¾î¶»°Ô µÇ¼¼¿ä?");
+		System.out.print("ï¿½Ì¸ï¿½ï¿½ï¿½ ï¿½î¶»ï¿½ï¿½ ï¿½Ç¼ï¿½ï¿½ï¿½?");
 		String name = scanner.next();
-		System.out.println("Á¦ ÀÌ¸§Àº " + name + "ÀÔ´Ï´Ù.");
-		System.out.print("³ªÀÌ´Â ¾î¶»°Ô µÇ¼¼¿ä?");
+		System.out.println("ï¿½ï¿½ ï¿½Ì¸ï¿½ï¿½ï¿½ " + name + "ï¿½Ô´Ï´ï¿½.");
+		System.out.print("ï¿½ï¿½ï¿½Ì´ï¿½ ï¿½î¶»ï¿½ï¿½ ï¿½Ç¼ï¿½ï¿½ï¿½?");
 		int age = scanner.nextInt();
-		System.out.println("Á¦ ³ªÀÌ´Â " + age + "ÀÔ´Ï´Ù.");
-		System.out.print("Å°´Â ¾î¶»°Ô µÇ¼¼¿ä?");
+		System.out.println("ï¿½ï¿½ ï¿½ï¿½ï¿½Ì´ï¿½ " + age + "ï¿½Ô´Ï´ï¿½.");
+		System.out.print("Å°ï¿½ï¿½ ï¿½î¶»ï¿½ï¿½ ï¿½Ç¼ï¿½ï¿½ï¿½?");
 		float height = scanner.nextFloat();
-		System.out.println("Á¦ Å°´Â " + height + "ÀÔ´Ï´Ù.");
+		System.out.println("ï¿½ï¿½ Å°ï¿½ï¿½ " + height + "ï¿½Ô´Ï´ï¿½.");
+		System.out.println((int)(Math.random()*3) +1);
 	}
 }
